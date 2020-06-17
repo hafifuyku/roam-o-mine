@@ -1,0 +1,43 @@
+div, textarea, .level2 {
+	font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.roam-body .roam-app .roam-sidebar-container {
+    background-color: #EEEEEE;
+}
+.controls {
+    display: flex;
+    flex: 0 0 36px;
+    padding-top: 4px;
+    padding-left: 0px;
+  	margin-right: 5px;
+}
+span.bp3-icon-standard {
+    font-size: 16px;
+    line-height: 1;
+    margin-left: 0px;
+}
+.controls .simple-bullet-outer {
+    height: 20px;
+    width: 20px;
+    margin-top: -1px;
+}
+.roam-bullet-closed {
+    background-color: #DDE0E2;
+}
+.controls .simple-bullet-outer .simple-bullet-inner {
+    background-color: #4D5155;
+  	width: 8px;
+  	height: 8px;
+}
+.block-border-left {
+    margin-left: 5px;
+  	border-radius: 0;
+  	padding-left: 8px;
+  	padding-bottom: 5px;
+}
+.rm-level3 {
+    color: #000000;
+}
+.level2 {
+  	font-size: 36px;
+}

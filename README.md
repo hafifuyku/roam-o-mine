@@ -1,4 +1,4 @@
-# roam-mine
+# roam-o-mine
 Fixed some issues at Roam Reasearch that were annoying to me
 
 * Changed the font stack

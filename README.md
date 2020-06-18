@@ -1,5 +1,5 @@
 # roam-o-mine
-Fixed some issues at Roam Reasearch that were annoying to me
+Fixed some issues at Roam Reasearch that were annoying to me. 
 
 * Changed the font stack
 * Made bullets bigger, spacier
@@ -12,4 +12,4 @@ Instructions for changing Roam's style: https://www.youtube.com/watch?v=UY-sAC2e
 
 Import via @import url('https://hafifuyku.github.io/roam-o-mine/roam-o-mine.css');
 
-
+![roam-o-mine](/images/screenshot.png)

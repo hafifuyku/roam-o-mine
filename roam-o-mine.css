@@ -1,11 +1,31 @@
-div, textarea, .level2 {
+/* Reset font-family */
+div, textarea, .level2, .rm-level1, .rm-level2, .rm-level3 {
 	font-family: Menlo, -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
+
+/* Reset heading font-sizes */
+h1, h2, h3, h4, h5, h6 {
+	font-size: 36px;  
+}
+
+/* Left sidebar colors */
 .roam-body .roam-app .roam-sidebar-container {
     background-color: #EFEFEF;
 }
+.bp3-minimal > div {
+   color: #666666 !important;
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button, .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page, .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper {
+    color: #666666;
+}
+
+/* Right sidebar colors */
+#right-sidebar {
+	background-color: #efefef !important;            
+}
+
+/* Bullets like Workflowy */ 
 .controls {
-    display: flex;
     flex: 0 0 36px;
     padding-top: 4px;
     padding-left: 0px;
@@ -17,34 +37,56 @@ span.bp3-icon-standard {
     margin-left: 0px;
     padding-top: 2px;
 }
+.roam-bullet-closed, #right-sidebar .roam-bullet-closed {
+    background-color: #DDE0E2;
+}
+#right-sidebar .roam-bullet-closed, .rm-reference-item .roam-bullet-closed{
+    background-color: #D1D2D3;
+}
 .controls .simple-bullet-outer {
     height: 20px;
     width: 20px;
     margin-top: -1px;
-}
-.roam-bullet-closed {
-    background-color: #DDE0E2;
 }
 .controls .simple-bullet-outer .simple-bullet-inner {
     background-color: #4D5155;
   	width: 8px;
   	height: 8px;
 }
+
+/* Align vertical lines and remove choppiness */
 .block-border-left {
     margin-left: 5px;
   	border-radius: 0;
   	padding-left: 8px;
   	padding-bottom: 5px;
 }
-.rm-level3 {
-    color: #666666;
-}
+
+/* Set the previous daily note headers to the same size so they don't jump on hover */
 .roam-log-preview .level2 {
   	font-size: 36px;
 }
-.bp3-minimal > div {
-    color: #666666 !important;
-}
+
+/* Right sidebar little padding on the left */
 #roam-right-sidebar-content {
 	margin-left:15px  !important;
+}
+
+/* Reference Item background color */
+.rm-reference-item {
+    background-color: #efefef;
+}
+
+/* Hideous new database selector div */
+.roam-sidebar-container .rm-db-title-container .rm-db-title {
+    color: #666666;
+}
+.bp3-popover {
+  width: 288px;
+}
+.roam-body .roam-app .roam-sidebar-container {
+  width: 250px;
+}
+.roam-sidebar-container .rm-db-title-container:hover {
+    background-color: #DBDEE1;
 }

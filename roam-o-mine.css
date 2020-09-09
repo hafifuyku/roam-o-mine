@@ -1,6 +1,9 @@
+/* Import Fira Code */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap');
+
 /* Reset font-family */
 div, textarea, .level2, .rm-level1, .rm-level2, .rm-level3 {
-	font-family: Menlo, -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-family: Menlo, "Fira Code", "Courier New", -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 /* Reset heading font-sizes */
@@ -24,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: #efefef !important;            
 }
 
-/* Bullets like Workflowy */ 
+/* Workflowy-like bullets */ 
 .controls {
     flex: 0 0 36px;
     padding-top: 4px;
@@ -67,7 +70,7 @@ span.bp3-icon-standard {
   	font-size: 36px;
 }
 
-/* Right sidebar little padding on the left */
+/* Right sidebar increase padding on the left */
 #roam-right-sidebar-content {
 	margin-left:15px  !important;
 }
@@ -89,4 +92,16 @@ span.bp3-icon-standard {
 }
 .roam-sidebar-container .rm-db-title-container:hover {
     background-color: #DBDEE1;
+}
+
+/* Remove top padding from the article area */
+.zoom-path-view {
+    margin-top: 0px;
+}
+.roam-body .roam-app .roam-main .roam-article {
+    padding: 0px 42px 120px;
+}
+
+.roam-body-main {
+ top:40px !important;   
 }

@@ -12,4 +12,4 @@ Instructions for changing Roam's style: https://www.youtube.com/watch?v=UY-sAC2e
 
 Import via @import url('https://hafifuyku.github.io/roam-o-mine/roam-o-mine.css');
 
-![roam-o-mine](/images/screenshot-roam-o-mine.png)
+![roam-o-mine](/images/CleanShot 2020-09-09 at 17.27.39@2x.png)

@@ -10,6 +10,6 @@ Fixed some issues at Roam Reasearch that were annoying to me.
 
 Instructions for changing Roam's style: https://www.youtube.com/watch?v=UY-sAC2eGyI
 
-Import via @import url('https://hafifuyku.github.io/roam-o-mine/roam-o-mine.css');
+Import via `@import url('https://hafifuyku.github.io/roam-o-mine/roam-o-mine.css');`
 
 ![roam-o-mine](/images/roam-o-mine.png)

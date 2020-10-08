@@ -6,11 +6,6 @@ div, textarea, .level2, .rm-level1, .rm-level2, .rm-level3 {
 	font-family: Menlo, "Fira Code", "Courier New", -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-/* Reset heading font-sizes */
-h1, h2, h3, h4, h5, h6 {
-	font-size: 36px;  
-}
-
 /* Left sidebar colors */
 .roam-body .roam-app .roam-sidebar-container {
     background-color: #EFEFEF;

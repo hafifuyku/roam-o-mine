@@ -1,4 +1,4 @@
-/* Import Fira Code */
+/* Import Fira Code for PC's */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap');
 
 /* Reset font-family */
@@ -99,4 +99,23 @@ span.bp3-icon-standard {
 
 .roam-body-main {
  top:40px !important;   
+}
+
+/* From @Can Sar, Cleaning up alignment for H1/H2/H3. */
+h3.rm-level3 {
+      margin-top: -3px !important;
+}
+
+h2.rm-level2 {
+      margin-top: -4px !important;
+}
+
+h1.rm-level1 {
+      margin-top: -5px !important;
+}
+
+/*From @JasperGeh, vertically align checkboxes */ 
+.check-container {
+  vertical-align: middle;
+  margin-top: 9px;
 }

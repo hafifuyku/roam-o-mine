@@ -90,15 +90,18 @@ span.bp3-icon-standard {
 }
 
 /* Remove top padding from the article area */
-.zoom-path-view {
-    margin-top: 0px;
-}
+
 .roam-body .roam-app .roam-main .roam-article {
     padding: 0px 42px 120px;
 }
 
 .roam-body-main {
  top:40px !important;   
+}
+
+/* Remove negative top margin from zoom-path-view */
+.rm-zoom.zoom-path-view {
+    margin-top: 0px;
 }
 
 /* From @Can Sar, Cleaning up alignment for H1/H2/H3. */

@@ -24,21 +24,14 @@ div, textarea, .level2, .rm-level1, .rm-level2, .rm-level3 {
 
 /* Bullets */
 .rm-bullet.rm-bullet--closed .rm-bullet__inner {
-    box-sizing: content-box;
-    border: 4px solid #DDE0E2;
+    border: 5px solid #DDE0E2;
+  	margin-left: -2px;
 }
 
 .rm-bullet__inner {
-    box-sizing: content-box;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    border-radius: 50%;
-    width: 5px;
-    height: 5px;
-    background-clip: content-box;
-    border: 4px solid transparent;
-    background-color: #394B59;
+    width: 7px;
+    height: 7px;
+  	margin-left: -1px;
 }
 
 /* Set the previous daily note headers to the same size so they don't jump on hover */

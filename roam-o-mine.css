@@ -64,7 +64,6 @@ div, textarea, .level2, .rm-level1, .rm-level2, .rm-level3 {
 }
 
 /* Remove top padding from the article area */
-
 .roam-body .roam-app .roam-main .roam-article {
     padding: 0px 42px 120px;
 }

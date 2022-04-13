@@ -56,9 +56,7 @@ div, textarea, .level2, .rm-level1, .rm-level2, .rm-level3 {
 .bp3-popover {
   width: 288px;
 }
-.roam-body .roam-app .roam-sidebar-container {
-  width: 250px;
-}
+
 .roam-sidebar-container .rm-db-title-container:hover {
     background-color: #DBDEE1;
 }
